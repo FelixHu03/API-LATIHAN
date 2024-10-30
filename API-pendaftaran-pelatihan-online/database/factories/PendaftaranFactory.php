@@ -16,6 +16,9 @@ class PendaftaranFactory extends Factory
      */
     public function definition(): array
     {
+        // cara jalankan php artisan tinker
+        // App\Models\Pendaftaean::factory()->create(); untuk 1 data
+        // App\Models\Pendaftaean::factory(10)->create(); untuk 10 data
         return [
             'nama' => fake()->name,
             'email' => fake()->unique()->safeEmail,

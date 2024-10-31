@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 
 class PendaftaranController extends Controller
 {
+    // php artisan make:controller Api\pendaftaranController
     public function index()
     {
         $pendaftaran = Pendaftaran::get();

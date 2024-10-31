@@ -9,4 +9,4 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::apiResource('Pendaftaran', PendaftaranController::class);
-// php artisan i api
+// php artisan install:api
